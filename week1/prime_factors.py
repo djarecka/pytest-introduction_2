@@ -23,7 +23,7 @@ def prime_factors(n):
 
 def test_prime_factors():
     assert prime_factors(8) == [2, 2, 2]
-
+    assert prime_factors(18)
 
 if __name__ == "__main__":
     test_prime_factors()
